@@ -1,0 +1,498 @@
+*{/*-------------------------------------------------------PREDETERMINADO*/
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body{/*-------------------------------------------------------CUERPO*/
+    position: relative;
+}
+.nav{/*-------------------------------------------------------ENCABEZADO*/
+    background: #262729;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    height: 34px;
+    margin-top: 0px; /*espacio antes del nav*/
+    text-align: left;
+}
+.nav li a {/*----------------------------------------------ENCABEZADO LINKS*/
+    color: white;
+    line-height: 18px;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 12px;
+    padding: 3px;
+    margin-top: 4px;
+    display:block;
+}
+.nav li{/*------------------------------------------------------ENCABEZADO*/
+    display: inline-block;
+    /*text-align: center;*/
+}
+.navDERECHA{/*------------------------------------------ENCABEZADO DERECHA*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: right;
+    list-style: none;
+    margin-top: -27px;
+    height: 34px; 
+}
+.navDERECHA li{/*--------------------------------------ENCABEZADO DERECHA*/
+    display: inline-block;
+    /*text-align: center;*/
+}
+.navDERECHA li a {/*---------------------------ENCABEZADO DERECHA LINKS*/
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 3px;
+    margin-left: 5px;
+    margin-top: 0px;
+    display:block;  
+}
+.img{/*-------------------------------------------------------LOGO CMR*/
+    width: 270px;
+    height: 50px;
+    margin-top: 35px;
+    margin-left: 192px;
+}
+.btn{/*-----------------------------------------------BOTON INICIAR SESION*/
+    background-color: #38A121;
+    color: #fff;
+    padding: 10px 16px 10px 16px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 1px;
+    letter-spacing: 0.20em;
+    margin-left: 1182px;
+    margin-top: -55px;
+    position: absolute;
+    cursor: pointer;
+}
+.opciones {/*--------------------------------SEGUNDA LINEA OPCIONES*/
+    margin-left: 170px;
+    margin-top: 30px;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.opciones a {/*----------------------SEGUNDA LINEA OPCIONES LINKS*/
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 1px;
+}
+.bannerPincipal{/*--------------------------------------------BANNER*/
+    margin-left: -185px;
+    width: 1530px;
+    height: 402px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+.credito{/*--------------------------------------CAJA SIMULAR CREDITO*/
+    background-color: #F7F7F7;
+    border-color: #b8b8b8;
+    width: 1130px;
+    height: 106px;
+    align-items: center;
+    margin-left: 191px;
+    border-width: 1px;
+    border-style: dotted;
+    border-radius: 10px;
+}
+h3{/*---------------------------------------------------TITULO SIMULAR*/
+    color: #1E1E1E;
+    font-size: 24px;
+    margin-top: 39.80px;
+    margin-left: 65px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 100;
+}
+.cajainput{/*-------------------------------------CONFIGURACION INPUT*/
+    width: 330px;
+    height: 40px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b8b8b8;
+    position: relative;
+    margin-top: -30px;
+}
+.cajainput::placeholder{/*---------------CONFIGURACION DEL PLACEHOLDER*/
+    margin-top: 10px;
+    margin-left: 10px;
+    position:fixed; 
+}
+.botones{/*--------------------------------BOTONES VERDES DE LA PAGINA*/
+    width: 190px;
+    height: 40px;
+    background-color: #38A121;
+    color: #fff;
+    font-size: 16px;
+    line-height: 10px;
+    font-weight: 700;
+    font-family:  'Lobster', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 5px;
+    border: 5px;
+    margin-top: 20px;
+    word-spacing: 0.25em;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.simular{/*---------------------------CONTENIDO DEL SIMULAR(BOTON Y INPUT)*/
+    text-align: right;
+    margin-top: -59px;
+    margin-right: 67px;
+    word-spacing: 2.5em;
+}
+.container{/*-----------------------------------------------RECUADRO UNO*/
+    width: 360px;
+    height: 430px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(199, 199, 199);
+    margin-top: 30px;
+    margin-left: 188px;
+    padding: 10px;
+
+    border-radius: 10px;
+    transition: 3s;
+    text-decoration: none;
+}
+.container .carru1{/*-------------------------------DIMENSIONES IMAGEN 1*/
+    width: 335px;
+    height: 255px; 
+}
+a{  /*---------------------------------------TEXTO EN GRIS CONFIGURACION*/
+    font-size: 16px;
+    color: #44474B;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+}
+.prince{/*------------------------------------PONERLE MARGEN A LAS CAJITAS*/
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.verdee {/*--------------------------------------TEXTO EN VERDE CAJITAS */
+    color: #38A121;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-align:left;
+}
+.container1{/*----------------------------------------------RECUADRO DOS*/
+    width: 360px;
+    height: 430px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(199, 199, 199);
+    margin-top: -430px;
+    margin-left: 570px;
+    padding: 10px;
+
+    border-radius: 10px;
+    transition: 3s;
+    text-decoration: none;
+}
+.container1 .carru1{/*---------------------------------DIMENSIONES IMAGEN 2*/
+    width: 335px;
+    height: 255px;
+}
+.container2{/*-----------------------------------------------RECUADRO TRES*/
+    width: 360px;
+    height: 430px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(199, 199, 199);
+    margin-top: -430px;
+    margin-left: 955px;
+    padding: 10px;
+    
+    border-radius: 10px;
+    transition: 3s;
+    text-decoration: none;
+}
+.container2 .carru1{/*---------------------------------DIMENSIONES IMAGEN 3*/
+    width: 335px;
+    height: 255px;
+}
+.ANUNCIO{/*-----------------------------------------TEXTO Y MARGEN ANUNCIO 1*/
+    margin-left: -500px;
+    margin-top: -190px;
+    text-align: center;
+}
+.ANUNCIO h1{/*---------------------------------------------TITULO ANUNCIO 1*/
+    font-size: 22px;
+    font-family: pfbeausans, Arial, sans-serif;
+    width: 500;
+    line-height: 27px;
+    text-align: center;
+}
+.ANUNCIO .botones{ /*-----------------CONTENIDO DEL SIMULAR(BOTON Y INPUT)*/
+    height: 43px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 16px;
+    letter-spacing: 0.20em;
+    width: 260px;
+}
+.IMAGEN1{ /*-----------------------------------------------------IMAGEN 1*/
+    width: 490px;
+    height: 270px;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+.IMAGEN2 {/*------------------------------------------------------IMAGEN 2*/
+    width: 490px;
+    height: 270px;
+    margin-top: 40px;
+    margin-left: 140px;
+    
+}
+.ANUNCIO2{/*---------------------------------------TEXTO Y MARGEN ANUNCIO 2*/
+    margin-left: 520px;
+    margin-top: -150px;
+    text-align: center;
+}
+.ANUNCIO2 h1{/*--------------------------------------------TITULO ANUNCIO 2*/
+    font-size: 22px;
+    font-family: pfbeausans, Arial, sans-serif;
+    width: 500;
+    line-height: 27px;
+    text-align: center;
+}
+.ANUNCIO2 .botones{/*---------------------------------------BOTON ANUNCIO 2*/
+    height: 43px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 16px;
+    letter-spacing: 0.20em;
+    width: 260px;
+}
+.IMAGEN3 {/*----------------------------------------..........------IMAGEN 3*/
+    width: 490px;
+    height: 270px;
+    margin-top: 30px;
+    margin-left: 410px;
+}
+.ANUNCIO3{/*-----------------------------------------TEXTO Y MARGEN ANUNCIO 3*/
+    margin-left: -500px;
+    margin-top: -150px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.ANUNCIO3 h1{/*--------------------------------------------TITULO ANUNCIO 3*/
+    font-size: 22px;
+    font-family: pfbeausans, Arial, sans-serif;
+    width: 500;
+    line-height: 27px;
+    text-align: center;
+
+}
+.ANUNCIO3 .botones{/*---------------------------------------BOTON ANUNCIO 3*/
+    height: 43px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 16px;
+    letter-spacing: 0.20em;
+    width: 260px;
+}
+.IMAGEN4 {/*----------------------------------------------IMAGEN 4*/
+    width: 490px;
+    height: 270px;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+.ANUNCIO4{/*-----------------------------------------TEXTO Y MARGEN ANUNCIO 4*/
+    margin-left: 600px;
+    margin-top: -150px;
+    text-align: center;
+}
+.ANUNCIO4 h1{/*--------------------------------------------TITULO ANUNCIO 4*/
+    font-size: 22px;
+    font-family: pfbeausans, Arial, sans-serif;
+    width: 500;
+    line-height: 27px;
+    text-align: center;
+}
+.ANUNCIO4 .botones{/*---------------------------------------BOTON ANUNCIO 4*/
+    height: 43px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 16px;
+    letter-spacing: 0.20em;
+    width: 260px;
+}
+.IMAGEN5 {/*----------------------------------------------IMAGEN 5*/
+    width: 490px;
+    height: 270px;
+    margin-top: 30px;
+    margin-left: 410px;
+}
+.ANUNCIO5{/*-----------------------------------------TEXTO Y MARGEN ANUNCIO 5*/
+    margin-left: -500px;
+    margin-top: -150px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.ANUNCIO5 h1{/*--------------------------------------------TITULO ANUNCIO 5*/
+    font-size: 22px;
+    font-family: pfbeausans, Arial, sans-serif;
+    width: 500;
+    line-height: 27px;
+}
+.ANUNCIO5 .botones{/*---------------------------------------BOTON ANUNCIO 5*/
+    height: 43px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 16px;
+    letter-spacing: 0.20em;
+    width: 260px;
+}
+.IMAGEN6{/*---------------------------------------------------------IMAGEN 6*/
+    width: 490px;
+    height: 270px;
+    margin-top: 45px;
+    margin-left: 140px;
+}
+.ANUNCIO6{/*-----------------------------------------TEXTO Y MARGEN ANUNCIO 6*/
+    margin-left: 600px;
+    margin-top: -150px;
+    text-align: center;
+}
+.ANUNCIO6 h1{/*--------------------------------------------TITULO ANUNCIO 6*/
+    font-size: 22px;
+    font-family: pfbeausans, Arial, sans-serif;
+    width: 500;
+    line-height: 27px;
+    text-align: center;
+}
+.ANUNCIO6 .botones{/*---------------------------------------BOTON ANUNCIO 6*/
+    height: 43px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 16px;
+    letter-spacing: 0.20em;
+    width: 260px;
+}
+.IMAGEN7{/*----------------------------------------------------------IMAGEN 7*/
+    width: 490px;
+    height: 270px;
+    margin-top: 70px;
+    margin-left: 410px;
+}
+.ANUNCIO7{/*-----------------------------------------TEXTO Y MARGEN ANUNCIO 7*/
+    margin-left: -500px;
+    margin-top: -150px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.ANUNCIO7 h1{/*-------------------------------------------------TITULO ANUNCIO 7*/
+    font-size: 22px;
+    font-family: pfbeausans, Arial, sans-serif;
+    width: 500;
+    line-height: 27px;
+}
+.ANUNCIO7 .botones{/*---------------------------------------------BOTON ANUNCIO 7*/
+    height: 43px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 16px;
+    letter-spacing: 0.20em;
+    width: 260px;
+}
+.ULTIMO{/*------------------------------------------------------------CARRUSEL*/
+    width: 1200px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 90px;
+    align-items:baseline;
+}
+.IMAGENEDDU{/*------------------------------------------------------------IMAGEN EDDU*/
+    width: 490px;
+    height: 270px;
+    margin-top: 250px;
+    margin-left: 750px;
+
+}
+.ANUNCIOEDDU{/*-----------------------------------------TEXTO Y MARGEN ANUNCIO EDDU*/
+    margin-left: -600px;
+    margin-top: -150px;
+    text-align: center;
+}
+.ANUNCIOeDDU h1{/*--------------------------------------------TITULO ANUNCIO EDDU*/
+    font-size: 22px;
+    font-family: pfbeausans, Arial, sans-serif;
+    width: 500;
+    line-height: 27px;
+}
+.ANUNCIOeDDU .botones{/*---------------------------------------BOTON ANUNCIO EDDU*/
+    height: 43px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 16px;
+    letter-spacing: 0.20em;
+    width: 260px;
+}
+.RECUADROGRIS{ /*---------------------------------------------------RECUADROGRIS DEL FOOTER*/
+    max-width: 1170px;
+    background-color: #262529;
+    margin: auto;
+}
+.SECCIONES{/*---------------------------------------------------------------------------SECCIONES*/
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{ /*----------------------------------------------------------------------------LISTA*/
+    list-style: none;
+}
+.FOOTER{ /*----------------------------------------------------------------------FOOTER*/
+    height: 700px;
+    margin-top: 100px;
+    background: #262529;
+    padding: 40px 0px; 
+    color: #fff;
+}
+.COLUMAS{ /*----------------------------------------------COLUMAS CON CONTENIDO DEL FOOTER*/
+    margin-bottom: 20px;
+    width: 300px; 
+    height: 474; 
+    padding: 0 19px;
+}
+.COLUMAS h4{ /*---------------------------------------------------------TITULOS DE FOOTER*/
+    padding: 15px 0px;
+    font-size: 19px;
+    font-family: pfbeausans, Arial, sans-serif;
+}
+.COLUMAS a{/*-----------------------------------------------------------------------LINKS*/
+    font-size: 14px;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+.REDESSOCIALES{/*----------------------------------------------------------------IMAGEN DE REDESSOCIALES*/
+    padding-left: 305px;
+    min-width: 305px;
+    line-height: 50px;
+    display: block;
+    text-align: end;
+}
+.REDESSOCIALES a{/*--------------------------------------------------------LINK DE REDESSOCIALES SOCIALES*/
+    color:#fff;
+    font-size: 50px;
+    display: inline-block;
+}
+.DERECHOS{/*----------------------------------------------------------------ULTIMO TEXTO*/
+    font-size: 11px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 50px;
+}
+.DERECHOS a{/*-----------------------------------------------ULTIMO TEXTO COLOR DE LINKS*/
+    color:#fff;
+}
